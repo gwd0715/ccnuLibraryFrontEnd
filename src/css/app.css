@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "sourceserif";
+    src: url("../assets/fonts/font1680.ttf")
+}
+@font-face {
+    font-family: "fzss";
+    src: url("../assets/fonts/fzss.ttf")
+}
+.el-select-dropdown__item {
+  text-align: center;
+}
